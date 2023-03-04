@@ -4,8 +4,12 @@ import React from "react"
 
 const navItems = [
   {
-    label: "Preguntas",
-    path: "/preguntas",
+    label: "Prólogo ",
+    path: "/prologo",
+  },
+  {
+    label: "Pago y Entrega",
+    path: "/faq",
   },
   {
     label: "Mundo Topia",
@@ -16,12 +20,12 @@ const navItems = [
 const Header = () => {
   return (
     <header className="flex justify-between items-center py-4 px-5 border-b-2 border-neutral-800 mb-10">
-      <div className="flex gap-3">
+      <Link href="/" className="inline-flex gap-3">
         <Image width={30} height={30} src="/svg/island.svg" />
         <h2 className="text-center text-3xl font-semibold text-[#333]">
           Topia
         </h2>
-      </div>
+      </Link>
       <nav>
         <ul className="flex gap-4">
           {navItems.map((item) => (
