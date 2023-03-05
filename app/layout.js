@@ -14,7 +14,7 @@ export const metadata = {
     type: "book",
     images: [
       {
-        url: 'https://topia.uy/og-image.png',
+        url: 'https://cdn.discordapp.com/attachments/789169114686029906/1082016676578611372/og-image.png',
         width: 300,
         height: 300,
       },
