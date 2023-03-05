@@ -7,11 +7,18 @@ export const metadata = {
   description: 'Una isla misteriosa, personajes entrañables, y una idea revolucionaria. Topia es una novela para leer y releer, un caleidoscopio de vivencias que permite al lector habitarla y dejarse habitar. Un libro que sigue la tradición de Tomás Moro, y el Shangri La de Hilton, pero desde una perspectiva actual, femenina y que invita a la acción más que a la contemplación.',
   openGraph: {
     title: 'Topia - Una Novela por Valeria Galbarini',
-    siteName: "https://topia.vercel.app",
+    siteName: "https://topia.uy",
     description: 'Una isla misteriosa, personajes entrañables, y una idea revolucionaria. Topia es una novela para leer y releer, un caleidoscopio de vivencias que permite al lector habitarla y dejarse habitar. Un libro que sigue la tradición de Tomás Moro, y el Shangri La de Hilton, pero desde una perspectiva actual, femenina y que invita a la acción más que a la contemplación.',
-    url: "https://topia.vercel.app",
+    url: "https://topia.uy",
     locale: 'es-ES',
-    type: "book"
+    type: "book",
+    images: [
+      {
+        url: 'https://topia.uy/og-image.png',
+        width: 300,
+        height: 300,
+      },
+    ]
   },
   others: {
     "book:isbn": "978-9915-41-598-7",
